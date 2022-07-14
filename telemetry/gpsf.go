@@ -1,21 +1,21 @@
 package telemetry
 
 import (
-	"encoding/binary"
-	"errors"
+        "encoding/binary"
+        "errors"
 )
 
 // GPS Fix
 type GPSF struct {
-	F uint32
+        F uint32
 }
 
 func (gpsf *GPSF) Parse(bytes []byte) error {
-	if 4 != len(bytes) {
-		return errors.New("Invalid length GPSF packet")
-	}
+        if 4 != len(bytes) {
+          return errors.New("Invalid length GPSF packet")
+        }
 
-	gpsf.F = binary.BigEndian.Uint32(bytes[0:4])
+        gpsf.F = binary.BigEndian.Uint32(bytes[0:4])
 
-	return nil
+        return nil
 }
