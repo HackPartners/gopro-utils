@@ -11,8 +11,8 @@ import (
 
 
 func gopro2json(inputVideo string) {
-	fmt.Println(inputVideo)
-	//openFile(inputVideo)
+	fmt.Printf("Converting %s...", inputVideo)
+	openFile(inputVideo)
 }
 
 func main() {

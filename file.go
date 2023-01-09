@@ -30,7 +30,12 @@ func openFile(filePath string) () {
 	}
 
 	fmt.Println("bytes read: ", bytesread)
-	fmt.Println("bytestream to string: ", string(buffer))
+	for _, n := range(buffer) {
+		fmt.Printf("%#v ", n)
+	}
+	//print(0x20)
+	//fmt.Print(buffer)
+	//fmt.Println("bytestream to string: ", string(buffer))
 	//return bytesread, nil // no error
 }
 
