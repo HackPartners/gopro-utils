@@ -7,8 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/stilldavid/gopro-utils/telemetry"
 	"github.com/tkrajina/gpxgo/gpx"
+
+	"github.com/hackpartners/gopro-utils/telemetry"
 )
 
 func main() {
