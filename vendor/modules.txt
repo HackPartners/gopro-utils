@@ -1,0 +1,31 @@
+# github.com/paulmach/go.geo v0.0.0-20180829195134-22b514266d33
+## explicit
+github.com/paulmach/go.geo
+# github.com/paulmach/go.geojson v1.5.0
+## explicit
+github.com/paulmach/go.geojson
+# github.com/tkrajina/gpxgo v1.3.1
+## explicit
+github.com/tkrajina/gpxgo/gpx
+# golang.org/x/net v0.0.0-20210614182718-04defd469f4e
+golang.org/x/net/html
+golang.org/x/net/html/atom
+golang.org/x/net/html/charset
+# golang.org/x/text v0.3.6
+golang.org/x/text/encoding
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/htmlindex
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/encoding/japanese
+golang.org/x/text/encoding/korean
+golang.org/x/text/encoding/simplifiedchinese
+golang.org/x/text/encoding/traditionalchinese
+golang.org/x/text/encoding/unicode
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/tag
+golang.org/x/text/internal/utf8internal
+golang.org/x/text/language
+golang.org/x/text/runes
+golang.org/x/text/transform
